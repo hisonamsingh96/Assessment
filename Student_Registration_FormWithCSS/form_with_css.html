@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registaration Form</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+<div class="main">
+    <h4>Student Registaration Form</h4>
+   <form action="">
+<div>
+    Full Name: <input type="text" required minlength="5" maxlength="25" pattern="/^[a-zA-Z\s]+$/; ">
+</div>
+<br>
+<div>
+    Last Name: <input type="text" required minlength="4" maxlength="25" pattern="/^[a-zA-Z\s]+$/">
+</div>
+<br>
+<div>
+    Email: <input type="email" placeholder="Enter your email" required pattern="/^\S+@\S+\.\S+$/">
+</div>
+<br>
+<div>
+Mobile:<input type="number" maxlength="10" pattern="/^[1-9]\d{9}$/">
+</div>
+<br>
+<div>
+    Gender:
+    <input type="radio" name="gender">Male
+    <input type="radio" name="gender">Female
+
+</div>
+<br>
+<div>
+Date O:Birth:<input type="datetime-local">
+</div>
+<br>
+<div>
+    Address:<br>
+    <!-- &nbsp;   &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp; 
+    &nbsp;   &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp; 
+    &nbsp;   &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  -->
+    <textarea name="" id="" cols="20" rows="5"></textarea>
+</div>
+<br>
+<div>
+     &nbsp;   &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;city:
+<input type="text">
+</div>
+<br> 
+<div>
+    Area PIN: <input type="text">
+</div>
+<br>
+<div>
+    State: <input type="state">
+</div>
+<br><br>
+<div>
+    Qualification:
+    <select name="" id="">
+        <option value="">Select Qualification</option>
+        <option value="">WD</option>
+        <option value="">Full Stack</option>
+        <option value="">Web Developer</option>
+    </select>
+</div>
+<br>
+Password: <input type="Password">
+<br>
+<div>
+    <br>
+    specilazation:<br>
+<input type="checkbox">computer science<br>
+   <input type="checkbox">information Techonology<br>
+    <input type="checkbox">computer Architecture<br>
+    <input type="checkbox">Tele Communication<br>
+</div>
+<br>
+
+Password: <input type="Password" required>
+<br>
+<button>Registered</button>
+</form>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 980px;
+    width: 50%;
+    background-color: rgb(233, 230, 230);
+    margin: 100px auto;
+    box-shadow: 0 0 20px rgb(31, 28, 28);
+    padding: 20px;
+    border: 1px solid black;
+}
+h4{
+    text-align: end;
+    padding: 10px;
+    font: 1em sans-serif;
+}
+ input{
+height: 35px;
+width: 70%;
+margin-left: 100px;
+border: 1px solid black;
+}
+input[type="radio"]{
+height: 10px;
+width: 10%;
+}
+input[type="email"]{
+   margin-left: 130px;
+    }
+    
+    input[type="number"]{
+        margin-left:130px;
+         }
+         textarea{
+            margin-left: 180px;
+         }
+         
+         input[type="state"]{
+            margin-left:130px;
+             }
+               
+         input[type="checkbox"]{
+            margin-left:100px;
+            height: 20px;
+            width: 20%;
+             } 
+            
+        select{
+            height: 30px;
+            border: 1px solid;
+            padding: 5px;
+            margin-left: 80px;
+        }
+
+             button{
+                padding: 10px;
+                background-color: green;
+                border-radius: 5px;
+                color: #fff;
+                font-size: large;
+             } 
